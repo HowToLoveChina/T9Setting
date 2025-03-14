@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+  <title>config device demo</title>
+</head>
+<body>
+  <div class="content">
+    <h1>Config device</h1>
+    <form method="POST" action="http://192.168.51.1/setting">
+      <fieldset>
+        <legend>Device settings</legend>
+        <label>SSID </label> <input type="text"
+          name="DeviceName" value="" >
+        <label>Passwd </label> <input type="text"
+          name="DevicePasswd" value="" >
+		 <label>UserId </label> <input type="text"
+		   name="UserId" value="root" >
+        <label>SSID </label> <input type="text"
+          name="sta_ssid" value="" >
+        <label>Passwd </label> <input type="text"
+          name="sta_pwd" value="" >
+		   
+        <div>
+          <button type="submit">Save </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
